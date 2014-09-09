@@ -1,3 +1,11 @@
+<?php
+
+/***
+ * Takes a url variable and pulls the data from the DB and displays. Will show
+ * information like squad for that game, score, who scored what, match report
+ ***/
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,6 +16,7 @@
 
         <!-- Bootstrap -->
         <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="includes/css/rugby.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,7 +26,9 @@
         <![endif]-->
     </head>   
     <body>
-        <h1>Hello, world!</h1>
+        <div class="container">
+            <?php include('includes/php/head.php');?>
+        </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
