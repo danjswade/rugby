@@ -1,3 +1,11 @@
+<?php
+    
+    /***
+     * Home page. Will display snapshot of the last game (who,when,score link to
+     * report), and snapshot of next game (who, where, when)
+     ***/
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

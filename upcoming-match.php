@@ -29,6 +29,110 @@
     <body>
         <div class="container">
             <?php include('includes/php/head.php');?>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Next Match</h3>
+                    <div class="box">
+                        <p>Date: </p>
+                        <p>Opposition: </p>
+                        <p>Kick Off: </p>
+                        <p><a href="#">Get Directions</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <table class="table table-hover table-responsive">
+                        <tr>
+                            <th>Position</th>
+                            <th>Name</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>13.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <th>Subs</th>
+                        </tr>
+                        <tr>
+                            <td>16.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>17.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>18.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>19.</td>
+                            <td>#</td>
+                        </tr>
+                        <tr>
+                            <td>20.</td>
+                            <td>#</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
         </div>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

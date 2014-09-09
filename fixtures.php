@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-1">
                     <h3>Fixtures</h3>
-                    <table class="table table-hover">
+                    <table class="table table-hover table-responsive">
                         <tr>
                             <th>Date</th>
                             <th>Opposition</th>
