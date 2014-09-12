@@ -9,6 +9,6 @@
 namespace Rugby;
 
 
-class Matches {
+class Match {
 
 } 

@@ -9,7 +9,7 @@
 namespace Rugby;
 
 
-class Players {
+class Player {
 
     protected $name;
     protected $dob;
@@ -66,5 +66,3 @@ class Players {
 
 
 }
-
-?>

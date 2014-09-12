@@ -9,6 +9,6 @@
 namespace Rugby;
 
 
-class Stats {
+class PlayerStats {
 
 } 
