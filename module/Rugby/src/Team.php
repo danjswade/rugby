@@ -9,8 +9,32 @@
 namespace Rugby;
 
 
-class Team {
+class Team
+{
 
+    protected $selection = array(
+        "loose" => "",
+        "hooker" => "",
+        "tight" => "",
+        "leftlock" => "",
+        "rightlock" => "",
+        "blindside" => "",
+        "openside" => "",
+        "eight" => "",
+        "scrumhalf" => "",
+        "flyhalf" => "",
+        "lwing" => "",
+        "inside" => "",
+        "outside" => "",
+        "rwing" => "",
+        "fullback" => "",
+        "sub1" => "",
+        "sub2" => "",
+        "sub3" => "",
+        "sub4" => "",
+        "sub5" => ""
+    )
 
+    
 
 } 
