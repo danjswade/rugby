@@ -73,6 +73,9 @@ class Player
      */
     public function setPosition($position)
     {
+        if(!self::validPosition($position)){
+            throw new\RuntimeException('Invalid Position: '.$position);
+        }
         $this->position = $position;
     }
 
@@ -84,6 +87,9 @@ class Player
         return $this->position;
     }
 
+    /**
+     * Checks position is one that matches constant and not random word/position
+     */
     public static function validPosition($position)
     {
         return defined('self::POSITION_'.strtoupper($position));
