@@ -6,7 +6,7 @@
  * @Time: 21:20
  */
 
-namespace Rugby\src;
+namespace Rugby;
 
 
 class Stats {

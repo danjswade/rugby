@@ -6,9 +6,21 @@
  * @Time: 21:20
  */
 
-namespace Rugby\src;
+namespace Rugby;
 
 
 class Players {
 
-} 
+    protected $name;
+    protected $dob;
+    protected $position;
+
+    function $Player_set($name, $dob, $position){
+        $this->name = $name;
+        $this->dob = $dob;
+        $this->position = $position;
+    }
+
+}
+
+?>

@@ -6,7 +6,7 @@
  * @Time: 21:19
  */
 
-namespace Rugby\src;
+namespace Rugby;
 
 
 class Matches {
