@@ -1,2 +1,5 @@
 .c9/
 php.ini
+vendor/
+.idea
+data/cache/*
