@@ -33,7 +33,14 @@ class Team
         "sub3" => "",
         "sub4" => "",
         "sub5" => ""
-    )
+    );
 
+    public function selection ($data)
+    {
+        
+        $result = array_merge($this->selection,$data);
+        return $result;
+        
+    }
 
 } 

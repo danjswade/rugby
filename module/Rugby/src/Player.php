@@ -73,6 +73,7 @@ class Player
      */
     public function setPosition($position)
     {
+        //checks position is valid before setting
         if(!self::validPosition($position)){
             throw new\RuntimeException('Invalid Position: '.$position);
         }
