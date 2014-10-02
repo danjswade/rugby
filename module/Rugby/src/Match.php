@@ -7,8 +7,23 @@
  */
 
 namespace Rugby;
+use Rugby\Team;
 
 
-class Match {
-
+class Match 
+{
+    
+    protected $venue = ;
+    protected $selection = ;
+    
+    public function setVenue($venue)
+    {
+        $this->venue = $venue;
+    }
+    
+    public function get Venue()
+    {
+        return $this->venue;
+    }
+    
 } 
