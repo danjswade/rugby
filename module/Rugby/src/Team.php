@@ -12,7 +12,7 @@ namespace Rugby;
 class Team
 {
 
-    protected $club;
+    protected $name;
 
     protected $selection = array(
         "loose" => "",
@@ -45,14 +45,14 @@ class Team
         
     }
 
-    public function setClub ($club)
+    public function setName ($name)
     {
-        $this->club = $club;
+        $this->name = $name;
     }
     
-    public function getClub ()
+    public function getName ()
     {
-        return $this->club;
+        return $this->name;
     }
 
 } 
