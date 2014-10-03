@@ -12,6 +12,8 @@ namespace Rugby;
 class Team
 {
 
+    protected $club;
+
     protected $selection = array(
         "loose" => "",
         "hooker" => "",
@@ -41,6 +43,16 @@ class Team
         $result = array_merge($this->selection,$data);
         return $result;
         
+    }
+
+    public function setClub ($club)
+    {
+        $this->club = $club;
+    }
+    
+    public function getClub ()
+    {
+        return $this->club;
     }
 
 } 
