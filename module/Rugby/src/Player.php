@@ -96,6 +96,9 @@ class Player
         return defined('self::POSITION_'.strtoupper($position));
     }
     
+    /**
+     * Creates an array from variables ready for handling
+     */
     public function getArrayCopy()
     {
         return (
@@ -105,6 +108,9 @@ class Player
         );
     }
     
+    /**
+     * Takes a given array to set the variables
+     */
     public function exchangeArray (array $data)
     {
         $this->name = isset($data['name']) ? $data['name'] : null;
