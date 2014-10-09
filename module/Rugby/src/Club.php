@@ -11,5 +11,4 @@
  class Club extends Team
  {
      
-     
  }

@@ -95,5 +95,21 @@ class Player
     {
         return defined('self::POSITION_'.strtoupper($position));
     }
+    
+    public function getArrayCopy()
+    {
+        return (
+            'name' => $this->name;
+            'dob' => $this->dob;
+            'position' => $this->position;
+        );
+    }
+    
+    public function exchangeArray (array $data)
+    {
+        $this->name = isset($data['name']) ? $data['name'] : null;
+        $this->dob = isset($data['dob']) ? $data['dob'] : null;
+        $this->position = isset($data['position']) ? $data['position'] : null;
+    }
 
 }

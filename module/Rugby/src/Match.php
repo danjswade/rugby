@@ -46,7 +46,7 @@ class Match
         return $this->mDate;
     }
     
-    public function setOpposition($oppo)
+    public function setOpposition(Club $oppo)
     {
         $this->opposition = $oppo;
     }
